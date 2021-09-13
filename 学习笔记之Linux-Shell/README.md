@@ -240,7 +240,7 @@
 
 * What's localhost ?
   * [localhost - Wikipedia](https://en.wikipedia.org/wiki/Localhost)
-  * The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.[1]
+  * The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.
 * How to extract .tar.gz Files ?
   ```sh
   $ tar xvzf file.tar.gz
