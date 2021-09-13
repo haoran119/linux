@@ -57,28 +57,28 @@
 * 精心汇总的 24 道 shell 脚本面试题 - 程序员大咖
   * https://mp.weixin.qq.com/s/elYuWwwiYR2XzP2K3qDeNQ
   * https://linux.cn/article-5311-1.html
-  1 Shell脚本是什么、它是必需的吗?
-  2 什么是默认登录shell，如何改变指定用户的登录shell
-  3 可以在shell脚本中使用哪些类型的变量?
-  4 如何将标准输出和错误输出同时重定向到同一位置?
-  5 shell脚本中“if”语法如何嵌套?
-  6 shell脚本中“$?”标记的用途是什么？
-  7 在shell脚本中如何比较两个数字 ?
-  8 shell脚本中break命令的作用 ?
-  9 shell脚本中continue命令的作用 ?
-  10 告诉我shell脚本中Case语句的语法 ?
-  11 shell脚本中while循环语法 ?
-  12 如何使脚本可执行 ?
-  13 “#!/bin/bash”的作用 ?
-  14 shell脚本中for循环语法 ?
-  15 如何调试shell脚本 ?
-  16 shell脚本如何比较字符串?
-  17 Bourne shell(bash) 中有哪些特殊的变量 ?
-  18 在shell脚本中，如何测试文件 ?
-  19 在shell脚本中，如何写入注释 ?
-  20 如何让 shell 就脚本得到来自终端的输入?
-  21 如何取消变量或取消变量赋值 ?
-  22 如何执行算术运算 ?
-  23 do-while语句的基本格式 ?
-  24 在shell脚本如何定义函数呢 ?
+  1. Shell脚本是什么、它是必需的吗?
+  2. 什么是默认登录shell，如何改变指定用户的登录shell
+  3. 可以在shell脚本中使用哪些类型的变量?
+  4. 如何将标准输出和错误输出同时重定向到同一位置?
+  5. shell脚本中“if”语法如何嵌套?
+  6. shell脚本中“$?”标记的用途是什么？
+  7. 在shell脚本中如何比较两个数字 ?
+  8. shell脚本中break命令的作用 ?
+  9. shell脚本中continue命令的作用 ?
+  10. 告诉我shell脚本中Case语句的语法 ?
+  11. shell脚本中while循环语法 ?
+  12. 如何使脚本可执行 ?
+  13. “#!/bin/bash”的作用 ?
+  14. shell脚本中for循环语法 ?
+  15. 如何调试shell脚本 ?
+  16. shell脚本如何比较字符串?
+  17. Bourne shell(bash) 中有哪些特殊的变量 ?
+  18. 在shell脚本中，如何测试文件 ?
+  19. 在shell脚本中，如何写入注释 ?
+  20. 如何让 shell 就脚本得到来自终端的输入?
+  21. 如何取消变量或取消变量赋值 ?
+  22. 如何执行算术运算 ?
+  23. do-while语句的基本格式 ?
+  24. 在shell脚本如何定义函数呢 ?
 * [常见的 shell 脚本面试题](https://mp.weixin.qq.com/s/ZHmZiKXe8vGPThQ2-8qhkA)
