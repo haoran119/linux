@@ -288,36 +288,38 @@
   ```
   * [Kill Process in Linux or Terminate a Process in UNIX / Linux Systems - nixCraft](https://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/)
 * How to kill a CLOSE_WAIT socket connection ?
-* [linux - How do I remove a CLOSE_WAIT socket connection - Stack Overflow](https://stackoverflow.com/questions/15912370/how-do-i-remove-a-close-wait-socket-connection)
-```sh
-$ netstat -an --tcp --program
-Active Internet connections (servers and established)
-Proto Recv-Q Send-Q Local Address Foreign Address State PID/Program name
-tcp 0 0 127.0.0.1:25 0.0.0.0:* LISTEN -
-tcp 11 0 127.0.0.1:15540 127.0.0.1:51974 CLOSE_WAIT -
+  * [linux - How do I remove a CLOSE_WAIT socket connection - Stack Overflow](https://stackoverflow.com/questions/15912370/how-do-i-remove-a-close-wait-socket-connection)
+  ```sh
+  $ netstat -an --tcp --program
+  Active Internet connections (servers and established)
+  Proto Recv-Q Send-Q Local Address Foreign Address State PID/Program name
+  tcp 0 0 127.0.0.1:25 0.0.0.0:* LISTEN -
+  tcp 11 0 127.0.0.1:15540 127.0.0.1:51974 CLOSE_WAIT -
 
-$ ss --tcp state CLOSE-WAIT --kill
-Recv-Q Send-Q Local Address:Port Peer Address:Port
+  $ ss --tcp state CLOSE-WAIT --kill
+  Recv-Q Send-Q Local Address:Port Peer Address:Port
+  ```
 * How to reverse-i-search back to search commands in history ?
-
-Ctrl + r
-How to check memory usage ?
-
-$ free -m (display in MB)
-$ top
-$ htop
-5 commands to check memory usage on Linux – BinaryTides
-https://www.binarytides.com/linux-command-check-memory-usage/
-How to check disk usage ?
-
-df命令用于显示目前在Linux系统上的文件系统的磁盘使用情况统计。
-https://www.runoob.com/linux/linux-comm-df.html
-df -h
-df -h /dir
-du 查看磁盘空间状况
-https://www.runoob.com/linux/linux-comm-du.html
-What's .bashrc ?
-
-.bashrc is a shell script that Bash runs whenever it is started interactively. It initializes an interactive shell session.
-bash - What is the purpose of .bashrc and how does it work? - Unix & Linux Stack Exchange
+  * Ctrl + r
+* How to check memory usage ?
+  ```sh
+  $ free -m (display in MB)
+  $ top
+  $ htop
+  ```
+  * [5 commands to check memory usage on Linux – BinaryTides](https://www.binarytides.com/linux-command-check-memory-usage/)
+* How to check disk usage ?
+  * df命令用于显示目前在Linux系统上的文件系统的磁盘使用情况统计。
+    * https://www.runoob.com/linux/linux-comm-df.html
+    ```sh
+    df -h
+    df -h /dir
+    ``` 
+  * du 查看磁盘空间状况
+    * https://www.runoob.com/linux/linux-comm-du.html
+* What's .bashrc ?
+* .bashrc is a shell script that Bash runs whenever it is started interactively. It initializes an interactive shell session.
+* [bash - What is the purpose of .bashrc and how does it work? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work)
+```sh
 $ cat .bashrc
+```
