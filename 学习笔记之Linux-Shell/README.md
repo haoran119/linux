@@ -26,7 +26,7 @@
 
 ## LINUX COMMAND
 
-* [Unix/Linux Command Reference]
+* Unix/Linux Command Reference
   * [fwunixref.pdf (cmu.edu)](https://www.cs.cmu.edu/~213/recitations/fwunixref.pdf)
   * [fwunixref.pdf (fosswire.com)](https://files.fosswire.com/2007/08/fwunixref.pdf)
 * [【ZZ】Linux常用指令 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/8674197.html)
