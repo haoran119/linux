@@ -318,8 +318,8 @@
   * du 查看磁盘空间状况
     * https://www.runoob.com/linux/linux-comm-du.html
 * What's .bashrc ?
-* .bashrc is a shell script that Bash runs whenever it is started interactively. It initializes an interactive shell session.
-* [bash - What is the purpose of .bashrc and how does it work? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work)
-```sh
-$ cat .bashrc
-```
+  * .bashrc is a shell script that Bash runs whenever it is started interactively. It initializes an interactive shell session.
+    * [bash - What is the purpose of .bashrc and how does it work? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work)
+  ```sh
+  $ cat .bashrc
+  ```
