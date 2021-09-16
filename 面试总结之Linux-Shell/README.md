@@ -2,7 +2,9 @@
 
 ## Linux
 
-* Linux cshrc文件作用
+* Linux .cshrc文件作用
+  * [linux里面的 .cshrc文件是干什么用的?_百度知道](https://zhidao.baidu.com/question/1817988779690815748.html)
+  * 这个是个隐藏文件，在你使用的用户家目录下的，是csh 这个shell的配置文件。
 * Linux如何起进程/查看进程/杀进程
   * [Linux如何查看进程、杀死进程、启动进程等常用命令_wojiaopanpan的博客-CSDN博客_linux常用命令查看进程](https://blog.csdn.net/wojiaopanpan/article/details/7286430)
   * 查进程 ps命令查找与进程相关的PID号： ps a 显示现行终端机下的所有程序，包括其他用户的程序。 ...
