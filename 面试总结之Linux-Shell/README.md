@@ -4,6 +4,16 @@
 
 * Linux cshrc文件作用
 * Linux如何起进程/查看进程/杀进程
+  * [Linux如何查看进程、杀死进程、启动进程等常用命令_wojiaopanpan的博客-CSDN博客_linux常用命令查看进程](https://blog.csdn.net/wojiaopanpan/article/details/7286430)
+  * 查进程 ps命令查找与进程相关的PID号： ps a 显示现行终端机下的所有程序，包括其他用户的程序。 ...
+  ```sh
+  ps aux | grep program_filter_word
+  ```
+  * 杀进程 使用kill命令结束进程：kill xxx. 常用：kill －9 324. ...
+  ```sh
+  kill －9 324
+  ```
+  * 进入到进程的执行文件所在的路径下，执行文件./文件名
 * Linux 文件755 代表什么权限
   * [linux系统中的755权限是什么意思-linux运维-PHP中文网](https://www.php.cn/linux-419252.html#:~:text=linux%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84755%E6%9D%83%E9%99%90%E6%98%AF%E6%8C%87%E6%89%80%E6%9C%89%E8%80%85,%E4%BB%A3%E8%A1%A8%E5%85%B6%E4%BB%96%E7%94%A8%E6%88%B7%E7%9A%84%E6%9D%83%E9%99%90%E3%80%82)
   * linux系统中的755权限是指所有者拥有可读、可写、可执行权限，所属组与其他用户仅拥有可读与可执行权限。 linux系统的权限一般是用1-3位数字代表文件所有者的权限，4-6位数字代表同组用户的权限，7-9位数字代表其他用户的权限。
