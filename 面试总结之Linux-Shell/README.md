@@ -19,15 +19,15 @@
   * 进入到进程的执行文件所在的路径下，执行文件./文件名
 * How to find log files ?
   * http://www.runoob.com/linux/linux-comm-find.html
-```sh
-find / -name "test*"
-find . -name "*.py"
-```
+  ```sh
+  find / -name "test*"
+  find . -name "*.py"
+  ```
   * [3 Ways to Find a File in Linux - wikiHow](https://www.wikihow.com/Find-a-File-in-Linux)
     * search on the current directory and subdirectories, and ignore the case of query
-```sh
-find . -iname 'filename'
-```
+  ```sh
+  find . -iname 'filename'
+  ```
 * Linux 文件755 代表什么权限
   * [linux系统中的755权限是什么意思-linux运维-PHP中文网](https://www.php.cn/linux-419252.html#:~:text=linux%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84755%E6%9D%83%E9%99%90%E6%98%AF%E6%8C%87%E6%89%80%E6%9C%89%E8%80%85,%E4%BB%A3%E8%A1%A8%E5%85%B6%E4%BB%96%E7%94%A8%E6%88%B7%E7%9A%84%E6%9D%83%E9%99%90%E3%80%82)
   * linux系统中的755权限是指所有者拥有可读、可写、可执行权限，所属组与其他用户仅拥有可读与可执行权限。 linux系统的权限一般是用1-3位数字代表文件所有者的权限，4-6位数字代表同组用户的权限，7-9位数字代表其他用户的权限。
