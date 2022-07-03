@@ -332,3 +332,11 @@ $ kill -9 19843
   ```sh
   $ cat .bashrc
   ```
+* How to activate virtualenv automatically when login session ?
+```sh
+$ echo 'source /virtualenv/source/.venv/bin/activate' >> ~/.bashrc
+$ cat ~/.bashrc
+# .bashrc
+...
+source /ccfs12/h.tang/wrk/mas/virtualenv/source/.venv/bin/activate
+```
