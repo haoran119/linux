@@ -290,6 +290,12 @@
   $ kill -9 11111
   ```
   * [Kill Process in Linux or Terminate a Process in UNIX / Linux Systems - nixCraft](https://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/)
+* How to stop jupyter notebook ?
+```sh
+$ ps ax | grep notebook
+19843 pts/2    Tl20170 pts/2    S+
+$ kill -9 19843
+```
 * How to kill a CLOSE_WAIT socket connection ?
   * [linux - How do I remove a CLOSE_WAIT socket connection - Stack Overflow](https://stackoverflow.com/questions/15912370/how-do-i-remove-a-close-wait-socket-connection)
   ```sh
