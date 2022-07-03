@@ -23,6 +23,9 @@
 * [Linux下你还知道这些特殊文件？](https://mp.weixin.qq.com/s/odOpV5INmu8tfegyjgU_bg)
 * [Ubuntu 的十年回顾](https://mp.weixin.qq.com/s/QTwH8e60wK7DmseiUZL7GQ)
   * https://www.omgubuntu.co.uk/2019/12/ubuntu-defining-moments-2010s
+* [Understanding Linux File Permissions | Linuxize](https://linuxize.com/post/understanding-linux-file-permissions/)
+  * In Linux, file permissions, attributes, and ownership control the access level that the system processes and users have to files. This ensures that only authorized users and processes can access specific files and directories.
+  * In Linux, access to the files is restricted using file permissions, attributes, and ownership. To change the file’s permissions use the chmod command.
 
 ## LINUX COMMAND
 
