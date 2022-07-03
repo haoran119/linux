@@ -338,5 +338,5 @@ $ echo 'source /virtualenv/source/.venv/bin/activate' >> ~/.bashrc
 $ cat ~/.bashrc
 # .bashrc
 ...
-source /ccfs12/h.tang/wrk/mas/virtualenv/source/.venv/bin/activate
+source /virtualenv/source/.venv/bin/activate
 ```
