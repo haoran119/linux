@@ -27,7 +27,7 @@
   * In Linux, file permissions, attributes, and ownership control the access level that the system processes and users have to files. This ensures that only authorized users and processes can access specific files and directories.
   * In Linux, access to the files is restricted using file permissions, attributes, and ownership. To change the file’s permissions use the chmod command.
 
-## LINUX COMMAND
+## LINUX COMMANDS
 
 * Unix/Linux Command Reference
   * [fwunixref.pdf (cmu.edu)](https://www.cs.cmu.edu/~213/recitations/fwunixref.pdf)
@@ -69,38 +69,7 @@
   * https://dev.to/mateuszjarzyna/linux-s-commands-and-tricks-i-m-using-in-my-daily-job-as-a-developer-4cle
 * [10个高效Linux技巧及Vim命令对比](https://mp.weixin.qq.com/s/Og6qZ_45BD_kLRvsIfYJEQ)
 
-## BASH
-
-* [Linux Bash编程详细语法总结](https://mp.weixin.qq.com/s/L-W4w14oVNkfTvpoBZSPlg)
-* [『一网打尽』 Bash 常用命令](https://mp.weixin.qq.com/s/uWDli1O5u73GCx0MpsGcWg)
-
-## VIM
-
-* [vim三种模式下的小技巧 - Linux学习](https://mp.weixin.qq.com/s/XgKK9kyuaBwF8x4caBULYQ)
-* [谁说 Vim 不好用？送你一个五彩斑斓的编辑器](https://mp.weixin.qq.com/s/v9rOPfjIblA9hZoEJIhunw)
-* [Coding效率提升，15张 Vim 速查表奉上](https://mp.weixin.qq.com/s/4xWoN-vujzGLYBYG0jcbJw)
-* [8个技巧让Vim菜鸟变专家](https://mp.weixin.qq.com/s/KrBwSk_UgyZLivcXAMS2xQ)
-* [Vim高手，从来不用鼠标](https://mp.weixin.qq.com/s/fj_WqAyuw5liOHc91Dx3NQ)
-* [10款好用的Vim插件，你知道几个？](https://mp.weixin.qq.com/s/S4afPpMrBtYV6ml8Qb4NXw)
-  * https://opensource.com/article/19/11/vim-plugins
-* [30个Vim常用命令](https://mp.weixin.qq.com/s/T6t964XQadO5pJ1FJJrjDQ)
-
-## SHELL
-
-* [学习笔记之Shell脚本的输出重定向 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/4955877.html)
-* [学习笔记之Linux Shell脚本教程：30分钟玩转Shell脚本编程 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5304025.html)
-* [编写可靠Linux shell脚本的八个建议](https://mp.weixin.qq.com/s/NNYuIfzEoitXKnHteJwj_A)
-* [Linux Shell的18条常用命令整理 - Linux学习](https://mp.weixin.qq.com/s/mNSXpKzMpMcP3V6Rf6Nzcg)
-* [10 个实战与面试【常用 Shell 脚本】编写](https://mp.weixin.qq.com/s/xuC_pH1X_GmyK0vVWrBzWQ)
-  * https://blog.51cto.com/lizhenliang/1929044
-* [Linux Shell 基础 -- 总结几种括号、引号的用法](https://mp.weixin.qq.com/s/nM3P7iVIygrwEEhkjDdH4Q)
-  * https://www.cnblogs.com/tongye/p/10646211.html
-* [一份Linux shell“圣经”收好](https://mp.weixin.qq.com/s/juul4YWoWCBzNpQWMdP4wg)
-  * https://github.com/dylanaraps/pure-bash-bible
-* [Linux Shell 时间运算以及时间差计算方法！](https://mp.weixin.qq.com/s/3SrV3wTrcu9O2s1r_MwRHg)
-  * https://www.cnblogs.com/chengmo/archive/2010/07/13/1776473.html
-
-## 常用命令
+### COMMANDS
 
 * [Linux 命令大全 | 菜鸟教程](http://www.runoob.com/linux/linux-command-manual.html)
 * bash - enter bash command line from virtual environment (e.g. conda)
@@ -238,6 +207,37 @@
     * 其他命令
 * who 你的用户名和终端类型
 * 定义变量 name=abc? (bash/pdksh) || set name = abc (tcsh)
+
+## BASH
+
+* [Linux Bash编程详细语法总结](https://mp.weixin.qq.com/s/L-W4w14oVNkfTvpoBZSPlg)
+* [『一网打尽』 Bash 常用命令](https://mp.weixin.qq.com/s/uWDli1O5u73GCx0MpsGcWg)
+
+## VIM
+
+* [vim三种模式下的小技巧 - Linux学习](https://mp.weixin.qq.com/s/XgKK9kyuaBwF8x4caBULYQ)
+* [谁说 Vim 不好用？送你一个五彩斑斓的编辑器](https://mp.weixin.qq.com/s/v9rOPfjIblA9hZoEJIhunw)
+* [Coding效率提升，15张 Vim 速查表奉上](https://mp.weixin.qq.com/s/4xWoN-vujzGLYBYG0jcbJw)
+* [8个技巧让Vim菜鸟变专家](https://mp.weixin.qq.com/s/KrBwSk_UgyZLivcXAMS2xQ)
+* [Vim高手，从来不用鼠标](https://mp.weixin.qq.com/s/fj_WqAyuw5liOHc91Dx3NQ)
+* [10款好用的Vim插件，你知道几个？](https://mp.weixin.qq.com/s/S4afPpMrBtYV6ml8Qb4NXw)
+  * https://opensource.com/article/19/11/vim-plugins
+* [30个Vim常用命令](https://mp.weixin.qq.com/s/T6t964XQadO5pJ1FJJrjDQ)
+
+## SHELL
+
+* [学习笔记之Shell脚本的输出重定向 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/4955877.html)
+* [学习笔记之Linux Shell脚本教程：30分钟玩转Shell脚本编程 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5304025.html)
+* [编写可靠Linux shell脚本的八个建议](https://mp.weixin.qq.com/s/NNYuIfzEoitXKnHteJwj_A)
+* [Linux Shell的18条常用命令整理 - Linux学习](https://mp.weixin.qq.com/s/mNSXpKzMpMcP3V6Rf6Nzcg)
+* [10 个实战与面试【常用 Shell 脚本】编写](https://mp.weixin.qq.com/s/xuC_pH1X_GmyK0vVWrBzWQ)
+  * https://blog.51cto.com/lizhenliang/1929044
+* [Linux Shell 基础 -- 总结几种括号、引号的用法](https://mp.weixin.qq.com/s/nM3P7iVIygrwEEhkjDdH4Q)
+  * https://www.cnblogs.com/tongye/p/10646211.html
+* [一份Linux shell“圣经”收好](https://mp.weixin.qq.com/s/juul4YWoWCBzNpQWMdP4wg)
+  * https://github.com/dylanaraps/pure-bash-bible
+* [Linux Shell 时间运算以及时间差计算方法！](https://mp.weixin.qq.com/s/3SrV3wTrcu9O2s1r_MwRHg)
+  * https://www.cnblogs.com/chengmo/archive/2010/07/13/1776473.html
 
 ## FAQ
 
