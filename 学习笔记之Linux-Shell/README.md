@@ -186,6 +186,7 @@
 * pwd 显示目录路径命令
 * rm 删除文件
   * rm -rf 删除非空文件夹
+  * [shell script to remove a file if it already exist - Stack Overflow](https://stackoverflow.com/questions/31318068/shell-script-to-remove-a-file-if-it-already-exist)
 * rmdir 删除目录
 * sudo
   * https://www.howtogeek.com/447906/how-to-control-sudo-access-on-linux/#:~:text=%20How%20to%20Control%20sudo,file.%20It%20is...%20More
