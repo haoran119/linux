@@ -193,13 +193,13 @@
   * The sudo command lets you run commands on Linux as though you were someone else, such as root. sudo also lets you control who can access root's capabilities, with granularity. Give users full access or let them use a small subset of commands.
   * Originally, it was called “superuser do”, because you could do things as the superuser. Its scope has been widened now, and you can use sudo to execute a command as though you were any user. It has been renamed to reflect that new functionality. It is now called “substitute user do.”
   * To use sudo to run a command as another user, we need to use the -u (user) option. Here, we’re going run the whoami command as the user mary. If you use the sudo command without the -u option, you’ll run the command as root.
-    ```sh
-    $ sudo -u mary whoami
-    ```
+    * `$ sudo -u mary whoami`
   * You can use the sudo command to log in as another user without knowing their password. You’ll be prompted for your own password. We need to use the -i (login) option.
-    ```sh
-    $ sudo -i -u mary
-    ```
+    * `$ sudo -i -u mary`
+* time
+  * `time sleep 2`
+  * [Linux time命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-time.html)
+  * [在Linux上，使用time优雅的统计程序运行时间](https://mp.weixin.qq.com/s/g8wQiVMwSBRAeBUSRuUrRQ)
 * top
   * [10分钟教会你看懂top](https://mp.weixin.qq.com/s/8bBj1utjbF0-RIlWTF3KWQ)
     * [10分钟教会你看懂top](https://juejin.cn/post/6844903919588491278)
