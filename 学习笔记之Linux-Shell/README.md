@@ -110,6 +110,16 @@
   ```
 * echo 显示指定文本
   * echo $abc 在变量赋值之后，只需在变量前面加一个$去引用.
+* [eval](https://www.runoob.com/linux/linux-comm-eval.html)
+  * Linux eval命令用于重新运算求出参数的内容。
+  * eval可读取一连串的参数，然后再依参数本身的特性来执行。
+  * [linux - How can I store a command in a variable in a shell script? - Stack Overflow](https://stackoverflow.com/questions/5615717/how-can-i-store-a-command-in-a-variable-in-a-shell-script)
+```sh
+x="ls | wc"
+eval "$x"
+y=$(eval "$x")
+echo "$y"
+```
 * find - Linux find命令用来在指定目录下查找文件。
   * http://www.runoob.com/linux/linux-comm-find.html
   ```sh
