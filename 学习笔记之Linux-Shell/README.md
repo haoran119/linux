@@ -206,6 +206,23 @@ echo "$y"
     * `$ sudo -u mary whoami`
   * You can use the sudo command to log in as another user without knowing their password. You’ll be prompted for your own password. We need to use the -i (login) option.
     * `$ sudo -i -u mary`
+* [tar](https://www.runoob.com/linux/linux-comm-tar.html)
+  * `tar [-ABcdgGhiklmMoOpPrRsStuUvwWxzZ][-b <区块数目>][-C <目的目录>][-f <备份文件>][-F <Script文件>][-K <文件>][-L <媒体容量>][-N <日期时间>][-T <范本文件>][-V <卷册名称>][-X <范本文件>][-<设备编号><存储密度>][--after-date=<日期时间>][--atime-preserve][--backuup=<备份方式>][--checkpoint][--concatenate][--confirmation][--delete][--exclude=<范本样式>][--force-local][--group=<群组名称>][--help][--ignore-failed-read][--new-volume-script=<Script文件>][--newer-mtime][--no-recursion][--null][--numeric-owner][--owner=<用户名称>][--posix][--erve][--preserve-order][--preserve-permissions][--record-size=<区块数目>][--recursive-unlink][--remove-files][--rsh-command=<执行指令>][--same-owner][--suffix=<备份字尾字符串>][--totals][--use-compress-program=<执行指令>][--version][--volno-file=<编号文件>][文件或目录...]`
+  * How to compress ?
+    * [How to compress a whole directory (including subdirectories) using TAR in Unix based OS with the CLI | Our Code World](https://ourcodeworld.com/articles/read/642/how-to-compress-a-whole-directory-including-subdirectories-using-tar-in-unix-based-os-with-the-cli)
+  ```sh
+  $ tar -czvf test.tar.gz a.c
+  $ tar -czvf test.tar.gz testdir/
+  ```
+  * How to extract .tar.gz Files ?
+    * [How To Extract .tar.gz Files using Linux Command Line - Interserver Tips](https://www.interserver.net/tips/kb/extract-tar-gz-files-using-linux-command-line/)
+  ```sh
+  $ tar xvzf file.tar.gz
+  $ tar xvzf file.tar.gz -C /path/to/somedirectory
+  ```    
+  * How to view the contents of tar.gz file without extracting it ?
+    * [How can I view the contents of tar.gz file without extracting from the command-line? - Ask Ubuntu](https://askubuntu.com/questions/392885/how-can-i-view-the-contents-of-tar-gz-file-without-extracting-from-the-command-l)
+    * `$ tar -tf filename.tar.gz`
 * time
   * `time sleep 2`
   * [Linux time命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-time.html)
@@ -255,23 +272,12 @@ echo "$y"
 * What's localhost ?
   * [localhost - Wikipedia](https://en.wikipedia.org/wiki/Localhost)
   * The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.
-* How to extract .tar.gz Files ?
-  ```sh
-  $ tar xvzf file.tar.gz
-  $ tar xvzf file.tar.gz -C /path/to/somedirectory
-  ```
-  * [How To Extract .tar.gz Files using Linux Command Line - Interserver Tips](https://www.interserver.net/tips/kb/extract-tar-gz-files-using-linux-command-line/)
 * How to fix Address already in use ?
   * [Bind failed: Address already in use - Stack Overflow](https://stackoverflow.com/questions/15198834/bind-failed-address-already-in-use)
   * Use netstat -tulpn to display the processes
   * Use netstat -pnlt | grep ':1' to find which process use the port 1
     * [networking - how to use netstat on a specific port in Linux - Super User](https://superuser.com/questions/602049/how-to-use-netstat-on-a-specific-port-in-linux)
   * kill -9 <pid> This will terminate the process
-* How to view the contents of tar.gz file without extracting it ?
-  ```sh
-  $ tar -tf filename.tar.gz
-  ```
-  * [How can I view the contents of tar.gz file without extracting from the command-line? - Ask Ubuntu](https://askubuntu.com/questions/392885/how-can-i-view-the-contents-of-tar-gz-file-without-extracting-from-the-command-l)
 * How to hide and view hidden files / directories ?
   ```sh
   $ mv file .file
