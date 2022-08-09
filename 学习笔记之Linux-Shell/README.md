@@ -102,6 +102,18 @@
   # result : newtest/test
   ```
 * date 当前的时间和日期
+* [df](https://www.runoob.com/linux/linux-comm-df.html)
+  * Linux df（英文全拼：disk free） 命令用于显示目前在 Linux 系统上的文件系统磁盘使用情况统计。
+  * `df [选项]... [FILE]...`
+  * How to check disk usage ?
+    ```sh
+    df -h
+    df -h /dir
+    ``` 
+* [du](https://www.runoob.com/linux/linux-comm-du.html)
+  * Linux du （英文全拼：disk usage）命令用于显示目录或文件的大小。
+  * du 会显示指定的目录或文件所占用的磁盘空间。
+  * `du [-abcDhHklmsSx][-L <符号连接>][-X <文件>][--block-size][--exclude=<目录或文件>][--max-depth=<目录层数>][--help][--version][目录或文件]`
 * diff 比较文件的差异
   * https://www.runoob.com/linux/linux-comm-diff.html
   ```sh
@@ -334,15 +346,6 @@ $ kill -9 19843
   $ htop
   ```
   * [5 commands to check memory usage on Linux – BinaryTides](https://www.binarytides.com/linux-command-check-memory-usage/)
-* How to check disk usage ?
-  * df命令用于显示目前在Linux系统上的文件系统的磁盘使用情况统计。
-    * https://www.runoob.com/linux/linux-comm-df.html
-    ```sh
-    df -h
-    df -h /dir
-    ``` 
-  * du 查看磁盘空间状况
-    * https://www.runoob.com/linux/linux-comm-du.html
 * What's .bashrc ?
   * .bashrc is a shell script that Bash runs whenever it is started interactively. It initializes an interactive shell session.
     * [bash - What is the purpose of .bashrc and how does it work? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work)
@@ -357,3 +360,11 @@ $ cat ~/.bashrc
 ...
 source /virtualenv/source/.venv/bin/activate
 ```
+* How to fix `fatal error: error writing to /tmp/ccdm6pWv.s: No space left on device` ?
+  * [c - Unable to compile with make | fatal error No space left on device - Stack Overflow](https://stackoverflow.com/questions/31493663/unable-to-compile-with-make-fatal-error-no-space-left-on-device)
+  * check and delete files `df -h /tmp`
+  * workaround 
+    ```sh
+    mkdir ~/tmp
+    export TMPDIR=~/tmp
+    ```
