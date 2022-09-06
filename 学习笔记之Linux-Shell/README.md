@@ -119,6 +119,7 @@
   ```sh
   diff a.py b.py -y -W 50
   diff -r dir_a dir_b
+  diff -r dir_a dir_b -x .git*
   ```
 * echo 显示指定文本
   * echo $abc 在变量赋值之后，只需在变量前面加一个$去引用.
