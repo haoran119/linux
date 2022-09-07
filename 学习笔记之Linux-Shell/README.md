@@ -256,14 +256,9 @@ echo "$y"
 
 ## VIM
 
-* [vim三种模式下的小技巧 - Linux学习](https://mp.weixin.qq.com/s/XgKK9kyuaBwF8x4caBULYQ)
-* [谁说 Vim 不好用？送你一个五彩斑斓的编辑器](https://mp.weixin.qq.com/s/v9rOPfjIblA9hZoEJIhunw)
-* [Coding效率提升，15张 Vim 速查表奉上](https://mp.weixin.qq.com/s/4xWoN-vujzGLYBYG0jcbJw)
 * [8个技巧让Vim菜鸟变专家](https://mp.weixin.qq.com/s/KrBwSk_UgyZLivcXAMS2xQ)
-* [Vim高手，从来不用鼠标](https://mp.weixin.qq.com/s/fj_WqAyuw5liOHc91Dx3NQ)
 * [10款好用的Vim插件，你知道几个？](https://mp.weixin.qq.com/s/S4afPpMrBtYV6ml8Qb4NXw)
   * https://opensource.com/article/19/11/vim-plugins
-* [30个Vim常用命令](https://mp.weixin.qq.com/s/T6t964XQadO5pJ1FJJrjDQ)
 
 ## SHELL
 
