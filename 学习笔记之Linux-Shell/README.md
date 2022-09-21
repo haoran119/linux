@@ -133,6 +133,16 @@ eval "$x"
 y=$(eval "$x")
 echo "$y"
 ```
+* [export](https://www.runoob.com/linux/linux-comm-export.html)
+  * `export [-fnp][变量名称]=[变量设置值]`
+  * -f 　代表[变量名称]中为函数名称。
+  * -n 　删除指定的变量。变量实际上并未删除，只是不会输出到后续指令的执行环境中。
+  * -p 　列出所有的shell赋予程序的环境变量。
+  * How to add and view path environment variable ?
+```sh
+$ export PATH=~/folder/:${PATH}
+$ echo $PATH
+```
 * find - Linux find命令用来在指定目录下查找文件。
   * http://www.runoob.com/linux/linux-comm-find.html
   ```sh
@@ -297,11 +307,6 @@ echo "$y"
 * How to view system environment variables ?
   ```sh
   $ env
-  ```
-* How to add and view path environment variable ?
-  ```sh
-  $ export PATH=~/folder/:${PATH}
-  $ echo $PATH
   ```
 * How to add and use alias ?
   ```sh
