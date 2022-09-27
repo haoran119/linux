@@ -26,6 +26,13 @@
 * [Understanding Linux File Permissions | Linuxize](https://linuxize.com/post/understanding-linux-file-permissions/)
   * In Linux, file permissions, attributes, and ownership control the access level that the system processes and users have to files. This ensures that only authorized users and processes can access specific files and directories.
   * In Linux, access to the files is restricted using file permissions, attributes, and ownership. To change the file’s permissions use the chmod command.
+* [CentOS - Wikipedia](https://en.wikipedia.org/wiki/CentOS)
+  * CentOS (/ˈsɛntɒs/, from Community Enterprise Operating System; also known as CentOS Linux)[5][6] is a Linux distribution that provides a free and open-source community-supported computing platform, functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL).[7][8] In January 2014, CentOS announced the official joining with Red Hat while staying independent from RHEL,[9] under a new CentOS governing board.[10][11]
+  * The first CentOS release in May 2004, numbered as CentOS version 2, was forked from RHEL version 2.1AS.[1] Since version 8, CentOS officially supports the x86-64, ARM64, and POWER8 architectures, and releases up to version 6 also supported the IA-32 architecture. As of December 2015, AltArch releases of CentOS 7 are available for the IA-32 architecture, Power ISA, and for the ARMv7hl and AArch64 variants of the ARM architecture.[12][13] CentOS 8 was released on 24 September 2019.[14]
+  * In December 2020, Red Hat unilaterally terminated CentOS development.[15][16][17][18] In response, CentOS founder Gregory Kurtzer created the Rocky Linux project as a successor to the original mission of CentOS.[19] In March 2021, Cloud Linux (makers of CloudLinux OS) released a new RHEL derivative called AlmaLinux.[20]
+  * While the distribution was discontinued at the end of 2021, development of CentOS Stream, its midstream variant, continues.[21]
+  * [How to check CentOS version - CentOS configuration and tutorials](https://linuxconfig.org/how-to-check-centos-version#:~:text=The%20simplest%20way%20to%20check,to%20troubleshoot%20your%20CentOS%20system.)
+    * `cat /etc/centos-release`
 
 ## LINUX COMMANDS
 
