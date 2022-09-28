@@ -121,8 +121,8 @@
   * Linux du （英文全拼：disk usage）命令用于显示目录或文件的大小。
   * du 会显示指定的目录或文件所占用的磁盘空间。
   * `du [-abcDhHklmsSx][-L <符号连接>][-X <文件>][--block-size][--exclude=<目录或文件>][--max-depth=<目录层数>][--help][--version][目录或文件]`
-* diff 比较文件的差异
-  * https://www.runoob.com/linux/linux-comm-diff.html
+* [diff](https://www.runoob.com/linux/linux-comm-diff.html) 比较文件的差异
+  * diff [-abBcdefHilnNpPqrstTuvwy][-<行数>][-C <行数>][-D <巨集名称>][-I <字符或字符串>][-S <文件>][-W <宽度>][-x <文件或目录>][-X <文件>][--help][--left-column][--suppress-common-line][文件或目录1][文件或目录2]
   ```sh
   diff a.py b.py -y -W 50
   diff -r dir_a dir_b
