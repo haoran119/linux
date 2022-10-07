@@ -133,6 +133,7 @@
 * [eval](https://www.runoob.com/linux/linux-comm-eval.html)
   * Linux eval命令用于重新运算求出参数的内容。
   * eval可读取一连串的参数，然后再依参数本身的特性来执行。
+  * [bash - What's the difference between eval and exec? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/296838/whats-the-difference-between-eval-and-exec)
   * [linux - How can I store a command in a variable in a shell script? - Stack Overflow](https://stackoverflow.com/questions/5615717/how-can-i-store-a-command-in-a-variable-in-a-shell-script)
 ```sh
 x="ls | wc"
@@ -140,6 +141,14 @@ eval "$x"
 y=$(eval "$x")
 echo "$y"
 ```
+* [exec](https://www.geeksforgeeks.org/exec-command-in-linux-with-examples/)
+  * exec command in Linux is used to execute a command from the bash itself. This command does not create a new process it just replaces the bash with the command to be executed. If the exec command is successful, it does not return to the calling process.
+  * Syntax:
+    * exec [-cl] [-a name] [command [arguments]] [redirection ...]
+  * Options:
+    * c: It is used to execute the command with empty environment.
+    * a name: Used to pass a name as the zeroth argument of the command.
+    * l: Used to pass dash as the zeroth argument of the command.
 * [export](https://www.runoob.com/linux/linux-comm-export.html)
   * `export [-fnp][变量名称]=[变量设置值]`
   * -f 　代表[变量名称]中为函数名称。
