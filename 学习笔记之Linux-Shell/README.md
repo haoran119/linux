@@ -7,25 +7,6 @@
   * PASE is a “real” UNIX—it is actually AIX. It looks similar to QSHELL, but doesn’t have some of the limitations built into QSHELL. To use PASE, CALL QP2TERM.
 * [AIX_百度百科 ](http://baike.baidu.com/view/349664.htm)
   * AIX（Advanced Interactive eXecutive）是IBM基于AT&T Unix System V开发的一套类UNIX操作系统，运行在IBM专有的Power系列芯片设计的小型机硬件系统之上。
-* [面试总结之Linux/Shell - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5559113.html)
-* [学习笔记之Linux开发(C语言) - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5122821.html)
-* [介绍 Linux 文件系统](https://mp.weixin.qq.com/s/Hb2W4Dm4fhHOgnX6vUUVGQ)
-* [Linux桌面进化史](https://mp.weixin.qq.com/s/Pyyb_hHZJOlylplrmG8uWg)
-  * https://opensource.com/article/19/8/how-linux-desktop-grown
-* [命令行的艺术](https://mp.weixin.qq.com/s/eiTABcqQ3QwCiCpeEHBszg)
-  * https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md
-* [Unix 激荡 50 年：驱动 Android、iOS 的操作系统是如何从失败开始的?](https://mp.weixin.qq.com/s/9QSsGC8UCtShexD1uQ1Tzg)
-  * https://arstechnica.com/gadgets/2019/08/unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/
-* [进程调度，一个调度器的自白](https://mp.weixin.qq.com/s/7-NcjLghdnRr01mFTeehhg)
-* [10个不得不知的Linux常识](https://mp.weixin.qq.com/s/J_74--fpDDpZIrKP2dq5iw)
-  * https://blog.51cto.com/7424593/1744358
-* [你应该了解的Linux知识](https://mp.weixin.qq.com/s/OWdfRIGbVYOBHhNfbrVs4Q)
-* [Linux下你还知道这些特殊文件？](https://mp.weixin.qq.com/s/odOpV5INmu8tfegyjgU_bg)
-* [Ubuntu 的十年回顾](https://mp.weixin.qq.com/s/QTwH8e60wK7DmseiUZL7GQ)
-  * https://www.omgubuntu.co.uk/2019/12/ubuntu-defining-moments-2010s
-* [Understanding Linux File Permissions | Linuxize](https://linuxize.com/post/understanding-linux-file-permissions/)
-  * In Linux, file permissions, attributes, and ownership control the access level that the system processes and users have to files. This ensures that only authorized users and processes can access specific files and directories.
-  * In Linux, access to the files is restricted using file permissions, attributes, and ownership. To change the file’s permissions use the chmod command.
 * [CentOS - Wikipedia](https://en.wikipedia.org/wiki/CentOS)
   * CentOS (/ˈsɛntɒs/, from Community Enterprise Operating System; also known as CentOS Linux)[5][6] is a Linux distribution that provides a free and open-source community-supported computing platform, functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL).[7][8] In January 2014, CentOS announced the official joining with Red Hat while staying independent from RHEL,[9] under a new CentOS governing board.[10][11]
   * The first CentOS release in May 2004, numbered as CentOS version 2, was forked from RHEL version 2.1AS.[1] Since version 8, CentOS officially supports the x86-64, ARM64, and POWER8 architectures, and releases up to version 6 also supported the IA-32 architecture. As of December 2015, AltArch releases of CentOS 7 are available for the IA-32 architecture, Power ISA, and for the ARMv7hl and AArch64 variants of the ARM architecture.[12][13] CentOS 8 was released on 24 September 2019.[14]
@@ -33,6 +14,25 @@
   * While the distribution was discontinued at the end of 2021, development of CentOS Stream, its midstream variant, continues.[21]
   * [How to check CentOS version - CentOS configuration and tutorials](https://linuxconfig.org/how-to-check-centos-version#:~:text=The%20simplest%20way%20to%20check,to%20troubleshoot%20your%20CentOS%20system.)
     * `cat /etc/centos-release`
+* [面试总结之Linux/Shell - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5559113.html)
+* [学习笔记之Linux开发(C语言) - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5122821.html)
+
+## RESROUCES
+
+* [Linux桌面进化史](https://mp.weixin.qq.com/s/Pyyb_hHZJOlylplrmG8uWg)
+  * https://opensource.com/article/19/8/how-linux-desktop-grown
+* [命令行的艺术](https://mp.weixin.qq.com/s/eiTABcqQ3QwCiCpeEHBszg)
+  * https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md
+* [Unix 激荡 50 年：驱动 Android、iOS 的操作系统是如何从失败开始的?](https://mp.weixin.qq.com/s/9QSsGC8UCtShexD1uQ1Tzg)
+  * https://arstechnica.com/gadgets/2019/08/unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/
+* [10个不得不知的Linux常识](https://mp.weixin.qq.com/s/J_74--fpDDpZIrKP2dq5iw)
+  * https://blog.51cto.com/7424593/1744358
+* [你应该了解的Linux知识](https://mp.weixin.qq.com/s/OWdfRIGbVYOBHhNfbrVs4Q)
+* [Ubuntu 的十年回顾](https://mp.weixin.qq.com/s/QTwH8e60wK7DmseiUZL7GQ)
+  * https://www.omgubuntu.co.uk/2019/12/ubuntu-defining-moments-2010s
+* [Understanding Linux File Permissions | Linuxize](https://linuxize.com/post/understanding-linux-file-permissions/)
+  * In Linux, file permissions, attributes, and ownership control the access level that the system processes and users have to files. This ensures that only authorized users and processes can access specific files and directories.
+  * In Linux, access to the files is restricted using file permissions, attributes, and ownership. To change the file’s permissions use the chmod command.
 
 ## LINUX COMMANDS
 
@@ -47,34 +47,17 @@
   * https://zhuanlan.zhihu.com/p/36093355
 * [图解 Linux 常用命令](https://mp.weixin.qq.com/s/NbwSQOj2fwyYDPFvqtazcA)
   * https://blog.csdn.net/xulong_08/article/details/81463054
-* [如何查看Linux系统的状态信息？](https://mp.weixin.qq.com/s/7KptRZpIoquQlwVT2jw-6w)
-* [解放你的双手，一个命令帮你减负 - Linux学习](https://mp.weixin.qq.com/s/EA3MbENrq8jfj0bD40ITNw)
 * [如何用 Linux 技巧大大提高工作效率？ - CSDN](https://mp.weixin.qq.com/s/wZ7tqB8EDEduQE-2gtUdFA)
-* [工作中常用到的Linux命令](https://mp.weixin.qq.com/s/tuy46Lqf6gDY7QiWsCH5pQ)
 * [Linux最常用命令](https://mp.weixin.qq.com/s/rpNxF0iD8fGZd8r-lnIdUA)
   * https://blog.csdn.net/xulong_08/article/details/81463054
-* [Linux上，最常用的一批命令解析（10年精选）](https://mp.weixin.qq.com/s/PO0h-5xlHiZZSOr7Dw0Fjg)
 * [Linux 实用指令大全](https://mp.weixin.qq.com/s/VTCoiglKNQKHEKQ_M8drCg)
   * https://blog.csdn.net/qq_42322103/article/details/96307643
-* [从命令行同时移动多种文件类型的小技巧](https://mp.weixin.qq.com/s/6UGkNTFj67PeCHPohlRZXQ)
-* [Linux 中删除目录的多种方法](https://mp.weixin.qq.com/s/HAt6fJEuL1SqXBTRPFujMw)
-  * https://www.linuxidc.com/Linux/2019-08/159921.htm
-* [软件测试工程师的 Linux 十大场景命令使用](https://mp.weixin.qq.com/s/5uFRLtz-fDfUqNRdUr6gUQ)
-* [一个录制并回放Linux终端会话的命令](https://mp.weixin.qq.com/s/OoQ0Dftsq5S3wJQvpa18FQ)
-  * https://www.linuxidc.com/Linux/2019-04/157926.htm
-* [3 种在Linux命令行查看图像的方法](https://mp.weixin.qq.com/s/ew1Mu4MgBkOk1fWPzm-gow)
-* [为何killall有时找不到你的进程？killall是干什么的？](https://mp.weixin.qq.com/s/6roIBVFSJKxgLLFea6OATg)
-* [Linux下如何拆分大的日志文件？](https://mp.weixin.qq.com/s/_Yin-MQvYxNDcID6JKUpGQ)
-* [几个命令了解ELF文件的“秘密”](https://mp.weixin.qq.com/s/3I7ev0U8EGTHwkSfAOLpHQ)
-* [为什么执行自己的程序要在前面加./](https://mp.weixin.qq.com/s/LdHHVsK9UsQ1mNLgA1pdSw)
 * [Linux里面常用的查看文本小技巧](https://mp.weixin.qq.com/s/yygNo3CpNHcS7IAjt87Sig)
   * https://blog.csdn.net/Danny_idea/article/details/98670880
 * [Linux生产环境上，最常用的一套“Sed“技巧](https://mp.weixin.qq.com/s/i5KPOf3hDQpoVprSaX5FcA)
   * https://github.com/aureliojargas/sokoban.sed
-* [sed命令，后台开发必知命令 (qq.com)](https://mp.weixin.qq.com/s/08iB170gzBONLrIyXkNL5Q)
 * [常用的 Linux 命令和技巧！](https://mp.weixin.qq.com/s/XtYKDgyPqG0lKaJ1ysaXqw)
   * https://dev.to/mateuszjarzyna/linux-s-commands-and-tricks-i-m-using-in-my-daily-job-as-a-developer-4cle
-* [10个高效Linux技巧及Vim命令对比](https://mp.weixin.qq.com/s/Og6qZ_45BD_kLRvsIfYJEQ)
 
 ### COMMANDS
 
