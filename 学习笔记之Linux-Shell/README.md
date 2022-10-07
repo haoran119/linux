@@ -33,6 +33,58 @@
 * [Understanding Linux File Permissions | Linuxize](https://linuxize.com/post/understanding-linux-file-permissions/)
   * In Linux, file permissions, attributes, and ownership control the access level that the system processes and users have to files. This ensures that only authorized users and processes can access specific files and directories.
   * In Linux, access to the files is restricted using file permissions, attributes, and ownership. To change the file’s permissions use the chmod command.
+* [Linux 性能分析工具汇总](https://mp.weixin.qq.com/s/QFbVwYWsIB0Ayw_-kJICYQ)
+  * https://rdc.hundsun.com/portal/article/731.html?ref=myread
+  * 性能分析工具
+    * ![image](https://user-images.githubusercontent.com/34557994/194443595-66880de8-5128-4806-83d9-d557b38f06b6.png)
+    * vmstat--虚拟内存统计
+      * vmstat（VirtualMeomoryStatistics，虚拟内存统计）是 Linux 中监控内存的常用工具,可对操作系统的虚拟内存、进程、CPU 等的整体情况进行监视。vmstat 的常规用法：vmstat interval times 即每隔 interval 秒采样一次，共采样 times 次，如果省略 times，则一直采集数据，直到用户手动停止为止。
+    * iostat--用于报告中央处理器统计信息
+      * iostat 用于报告中央处理器（CPU）统计信息和整个系统、适配器、tty 设备、磁盘和 CD-ROM 的输入/输出统计信息，默认显示了与 vmstat 相同的 cpu 使用信息，使用以下命令显示扩展的设备统计
+    * dstat--系统监控工具
+      * dstat 显示了 cpu 使用情况，磁盘 io 情况，网络发包情况和换页情况，输出是彩色的，可读性较强，相对于 vmstat 和iostat 的输入更加详细且较为直观。在使用时，直接输入命令即可，当然也可以使用特定参数。
+    * iotop--LINUX进程实时监控工具
+      * iotop命令是专门显示硬盘IO的命令，界面风格类似top命令，可以显示IO负载具体是由哪个进程产生的。是一个用来监视磁盘I/O使用状况的top类工具，具有与top相似的UI，其中包括PID、用户、I/O、进程等相关信息。
+    * pidstat--监控系统资源情况
+      * pidstat 主要用于监控全部或指定进程占用系统资源的情况,如 CPU,内存、设备 IO、任务切换、线程等。
+    * top
+      * top 命令的汇总区域显示了五个方面的系统性能信息：
+        * 负载：时间，登陆用户数，系统平均负载；
+        * 进程：运行，睡眠，停止，僵尸；
+        * cpu:用户态，核心态，NICE,空闲，等待IO,中断等；
+        * 内存：总量，已用，空闲（系统角度），缓冲，缓存；
+        * 交换分区：总量，已用，空闲
+        * 任务区域默认显示：进程 ID，有效用户，进程优先级，NICE 值，进程使用的虚拟内存，物理内存和共享内存，进程状态，CPU 占用率，内存占用率，累计 CPU 时间，进程命令行信息。
+    * htop
+      * htop 是 Linux 系统中的一个互动的进程查看器,一个文本模式的应用程序(在控制台或者X终端中),需要 ncurses。
+    * mpstat
+      * mpstat 是 Multiprocessor Statistics的缩写，是实时系统监控工具。其报告CPU的一些统计信息，这些信息存放在 /proc/stat 文件中。在多 CPUs 系统里，其不但能查看所有 CPU 的平均状况信息，而且能够查看特定 CPU 的信息。
+    * netstat
+      * netstat 用于显示与 IP、TCP、UDP和 ICMP 协议相关的统计数据，一般用于检验本机各端口的网络连接情况。
+    * ps--显示当前进程的状态
+      * ps 参数太多，具体使用方法可以参考 man ps
+    * strace
+      * 跟踪程序执行过程中产生的系统调用及接收到的信号，帮助分析程序或命令执行中遇到的异常情况。
+    * uptime
+      * 能够打印系统总共运行了多长时间和系统的平均负载，uptime 命令最后输出的三个数字的含义分别是 1分钟，5分钟，15分钟内系统的平均负荷。
+    * lsof
+      * lsof（list open files）是一个列出当前系统打开文件的工具。通过 lsof 工具能够查看这个列表对系统检测及排错
+    * perf
+      * perf 是 Linux kernel 自带的系统性能优化工具。优势在于与 Linux Kernel 的紧密结合，它可以最先应用到加入 Kernel 的new feature，用于查看热点函数，查看 cashe miss 的比率，从而帮助开发者来优化程序性能。
+  * 常用的性能测试工具
+    * Linux observability tools | Linux 性能观测工具
+      * ![image](https://user-images.githubusercontent.com/34557994/194444371-66fc61a8-0c42-4c99-a9ef-57e289ce7e65.png)
+      * 首先学习的Basic Tool有如下：uptime、top(htop)、mpstat、isstat、vmstat、free、ping、nicstat、dstat。
+      * 高级的命令如下：sar、netstat、pidstat、strace、tcpdump、blktrace、iotop、slabtop、sysctl、/proc。
+    * Linux benchmarking tools | Linux 性能测评工具
+      * ![image](https://user-images.githubusercontent.com/34557994/194444505-fa538ec3-1d27-498a-95a7-0b3f77214ac8.png)
+      * 是一款性能测评工具，对于不同模块的性能测试可以使用相应的工具，想要深入了解，可以参考最下文的附件文档。
+    * Linux tuning tools | Linux 性能调优工具
+      * ![image](https://user-images.githubusercontent.com/34557994/194444545-34324076-ebc6-4fde-a9a3-4eb7825e800d.png)
+      * 是一款性能调优工具，主要是从linux内核源码层进行的调优，想要深入了解，可以参考下文附件文档。
+    * Linux observability sar | linux性能观测工具
+      * ![image](https://user-images.githubusercontent.com/34557994/194444597-071b53ec-ed55-4f49-9529-15d25a6a2b52.png)
+      * sar（System Activity Reporter系统活动情况报告）是目前LINUX上最为全面的系统性能分析工具之一，可以从多方面对系统的活动进行报告，包括：文件的读写情况、系统调用的使用情况、磁盘I/O、CPU效率、内存使用状况、进程活动及IPC 有关的活动等方面。
 
 ## LINUX COMMANDS
 
