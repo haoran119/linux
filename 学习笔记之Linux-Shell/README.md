@@ -205,6 +205,11 @@ $ echo $PATH
   ```sh
   ls -l my_link.txt
   ```
+* [lsof - list open files](https://man7.org/linux/man-pages/man8/lsof.8.html)
+  * show deleted file in open
+    * `lsof | grep -i deleted`
+  * [Script to kill deleted files lsof](http://www.techbluff.com/linux/script-to-kill-deleted-files-lsof/)
+    * `lsof +L1 | grep 'deleted' | awk '{print $2}' | xargs kill -9`
 * man help
 * mkdir 创建目录
   * [unix - mkdir's "-p" option - Stack Overflow](https://stackoverflow.com/questions/22737933/mkdirs-p-option)
