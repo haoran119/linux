@@ -159,9 +159,13 @@
 * [diff](https://www.runoob.com/linux/linux-comm-diff.html) 比较文件的差异
   * diff [-abBcdefHilnNpPqrstTuvwy][-<行数>][-C <行数>][-D <巨集名称>][-I <字符或字符串>][-S <文件>][-W <宽度>][-x <文件或目录>][-X <文件>][--help][--left-column][--suppress-common-line][文件或目录1][文件或目录2]
   ```sh
-  diff a.py b.py -y -W 50
+  diff a.py b.py -y -W 200
   diff -r dir_a dir_b
   diff -r dir_a dir_b -x .git*
+  diff -r dir_a dir_b -x .git* -c
+  diff -r dir_a dir_b -x .git* -u
+  diff -r dir_a dir_b -x .git* -y -W 200 --suppress-common-lines
+  diff -r dir_a dir_b -x .git* -q
   ```
 * echo 显示指定文本
   * echo $abc 在变量赋值之后，只需在变量前面加一个$去引用.
