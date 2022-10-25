@@ -323,6 +323,8 @@ $ echo $PATH
 * [unzip 命令用于解压缩zip文件](https://www.runoob.com/linux/linux-comm-unzip.html)
   * `unzip [-cflptuvz][-agCjLMnoqsVX][-P <密码>][.zip文件][文件][-d <目录>][-x <文件>] 或 unzip [-Z]`
   * `unzip test.zip`
+  * -v 参数用于查看压缩文件目录信息，但是不解压该文件。
+    * `unzip -v abc.zip`
   * [How to Unzip Files in Linux | Linuxize](https://linuxize.com/post/how-to-unzip-files-in-linux/)
 * who 你的用户名和终端类型
 * [zip 命令用于压缩文件](https://www.runoob.com/linux/linux-comm-zip.html)
