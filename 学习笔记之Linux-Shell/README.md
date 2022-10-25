@@ -248,11 +248,11 @@ $ echo $PATH
   ```sh
   locate poetry
   ```
-* ls dir
+* [ls dir](https://www.runoob.com/linux/linux-comm-ls.html)
   * verify the symlink
-  ```sh
-  ls -l my_link.txt
-  ```
+    * `ls -l my_link.txt`
+  * 列出目前工作目录下所有名称是 s 开头的文件，越新的排越后面
+    * `ls -ltr s*`
 * [lsof - list open files](https://man7.org/linux/man-pages/man8/lsof.8.html)
   * show deleted file in open
     * `lsof | grep -i deleted`
