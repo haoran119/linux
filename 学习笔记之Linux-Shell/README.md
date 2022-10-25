@@ -331,8 +331,10 @@ $ echo $PATH
   * `zip [-AcdDfFghjJKlLmoqrSTuvVwXyz$][-b <工作目录>][-ll][-n <字尾字符串>][-t <日期时间>][-<压缩效率>][压缩文件][文件...][-i <范本样式>][-x <范本样式>]`
   * -f 更新现有的文件。
   * -j 只保存文件名称及其内容，而不存放任何目录名称。
-  * `zip -fj test.zip test.txt`
+  * overwrite zip file
+    * `zip -FSj test.zip a.txt b.txt`
   * [How to Zip Files and Directories in Linux | Linuxize](https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/)
+  * [command line - How to overwrite existing zip file instead of updating it in Info-Zip? - Super User](https://superuser.com/questions/350991/how-to-overwrite-existing-zip-file-instead-of-updating-it-in-info-zip)
 * 定义变量 name=abc? (bash/pdksh) || set name = abc (tcsh)
 
 ## BASH
