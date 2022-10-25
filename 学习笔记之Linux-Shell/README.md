@@ -316,7 +316,17 @@ $ echo $PATH
     * Load Average
     * top命令一行一行看
     * 其他命令
+* [unzip 命令用于解压缩zip文件](https://www.runoob.com/linux/linux-comm-unzip.html)
+  * `unzip [-cflptuvz][-agCjLMnoqsVX][-P <密码>][.zip文件][文件][-d <目录>][-x <文件>] 或 unzip [-Z]`
+  * `unzip test.zip`
+  * [How to Unzip Files in Linux | Linuxize](https://linuxize.com/post/how-to-unzip-files-in-linux/)
 * who 你的用户名和终端类型
+* [zip 命令用于压缩文件](https://www.runoob.com/linux/linux-comm-zip.html)
+  * `zip [-AcdDfFghjJKlLmoqrSTuvVwXyz$][-b <工作目录>][-ll][-n <字尾字符串>][-t <日期时间>][-<压缩效率>][压缩文件][文件...][-i <范本样式>][-x <范本样式>]`
+  * -f 更新现有的文件。
+  * -j 只保存文件名称及其内容，而不存放任何目录名称。
+  * `zip -fj test.zip test.txt`
+  * [How to Zip Files and Directories in Linux | Linuxize](https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/)
 * 定义变量 name=abc? (bash/pdksh) || set name = abc (tcsh)
 
 ## BASH
