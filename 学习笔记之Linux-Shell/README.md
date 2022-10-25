@@ -143,7 +143,11 @@
 
   # result : newtest/test
   ```
-* date 当前的时间和日期
+* [date 命令可以用来显示或设定系统的日期与时间](https://www.runoob.com/linux/linux-comm-date.html)
+```sh
+# date
+Tue May 24 09:29:43 CST 2022
+```
 * [df](https://www.runoob.com/linux/linux-comm-df.html)
   * Linux df（英文全拼：disk free） 命令用于显示目前在 Linux 系统上的文件系统磁盘使用情况统计。
   * `df [选项]... [FILE]...`
