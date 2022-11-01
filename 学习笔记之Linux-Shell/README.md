@@ -329,7 +329,7 @@ $ echo $PATH
       * `isolcpus=0,1`
   * [How to set CPU affinity for a process from C or C++ in Linux? - Stack Overflow](https://stackoverflow.com/questions/280909/how-to-set-cpu-affinity-for-a-process-from-c-or-c-in-linux)
   * [Thread Affinity | CoffeeBeforeArch.github.io](https://coffeebeforearch.github.io/2020/05/27/thread-affinity.html)
-  * [c++ - Set CPU affinity when create a thread - Stack Overflow](https://stackoverflow.com/questions/24645880/set-cpu-affinity-when-create-a-thread#:~:text=In%20C%2B%2B%2011%20you%20cannot,handle%20for%20the%20thread%20(thread.)
+  * [c++ - Set CPU affinity when create a thread - Stack Overflow](https://stackoverflow.com/questions/24645880/set-cpu-affinity-when-create-a-thread#:~:text=In%20C%2B%2B%2011%20you%20cannot,handle%20for%20the%20thread%20\(thread.)
   * [C++11 threads, affinity and hyperthreading - Eli Bendersky's website](https://eli.thegreenplace.net/2016/c11-threads-affinity-and-hyperthreading/)
 * time
   * `time sleep 2`
