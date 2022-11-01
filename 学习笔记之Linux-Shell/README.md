@@ -113,6 +113,7 @@
 
 ### COMMANDS
 
+* [Linux manual pages: alphabetic list of all pages](https://man7.org/linux/man-pages/dir_all_alphabetic.html)
 * [Linux 命令大全 | 菜鸟教程](http://www.runoob.com/linux/linux-command-manual.html)
 * bash - enter bash command line from virtual environment (e.g. conda)
 * bg - Runs jobs in the background
@@ -310,6 +311,26 @@ $ echo $PATH
   * How to view the contents of tar.gz file without extracting it ?
     * [How can I view the contents of tar.gz file without extracting from the command-line? - Ask Ubuntu](https://askubuntu.com/questions/392885/how-can-i-view-the-contents-of-tar-gz-file-without-extracting-from-the-command-l)
     * `$ tar -tf filename.tar.gz`
+* [taskset - set or retrieve a process's CPU affinity](https://man7.org/linux/man-pages/man1/taskset.1.html)
+  * `taskset [options] mask command [argument...]`
+  * `taskset [options] -p [mask] pid`
+  * The taskset command is used to set or retrieve the CPU affinity of a running process given its pid, or to launch a new command with a given CPU affinity. CPU affinity is a scheduler property that "bonds" a process to a given set of CPUs on the system. The Linux scheduler will honor the given CPU affinity and the process will not run on any other CPUs. Note that the Linux scheduler also supports natural CPU affinity: the scheduler attempts to keep processes on the same CPU as long as practical for performance reasons. Therefore, forcing a specific CPU affinity is useful only in certain applications.
+  * [How to run program or process on specific CPU cores on Linux](https://www.xmodulo.com/run-program-process-specific-cpu-cores-linux.html)
+    * Install taskset on Linux
+    * View the CPU Affinity of a Running Process
+      * `$ taskset -p 2915`
+      * `$ taskset -cp 2915`
+    * Pin a Running Process to Particular CPU Core(s)
+      * `$ taskset -p 0x11 9030`
+      * `$ taskset -cp 0,4 9030`
+    * Launch a Program on Specific CPU Cores
+      * `$ taskset 0x1 test_pgm`
+    * Dedicate a Whole CPU Core to a Particular Program
+      * `isolcpus=0,1`
+  * [How to set CPU affinity for a process from C or C++ in Linux? - Stack Overflow](https://stackoverflow.com/questions/280909/how-to-set-cpu-affinity-for-a-process-from-c-or-c-in-linux)
+  * [Thread Affinity | CoffeeBeforeArch.github.io](https://coffeebeforearch.github.io/2020/05/27/thread-affinity.html)
+  * [c++ - Set CPU affinity when create a thread - Stack Overflow](https://stackoverflow.com/questions/24645880/set-cpu-affinity-when-create-a-thread#:~:text=In%20C%2B%2B%2011%20you%20cannot,handle%20for%20the%20thread%20(thread.)
+  * [C++11 threads, affinity and hyperthreading - Eli Bendersky's website](https://eli.thegreenplace.net/2016/c11-threads-affinity-and-hyperthreading/)
 * time
   * `time sleep 2`
   * [Linux time命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-time.html)
