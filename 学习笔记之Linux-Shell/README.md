@@ -420,6 +420,18 @@ $ echo $PATH
   $ kill -9 11111
   ```
   * [Kill Process in Linux or Terminate a Process in UNIX / Linux Systems - nixCraft](https://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/)
+* How to find out a CPU Core that is running a particular Process in Linux ?
+  * [4 Ways to Find Out a CPU Core that is running a particular Process in Linux - Techglimpse](https://techglimpse.com/find-cpu-processor-running-process-linux/#:~:text=You%20can%20use%20ps%20command,field%20in%20ps%20command%20output.&text=The%20above%20command%20output%20indicates,assigned%20to%20CPU%20core%202.)
+    * Command 1 : Using ps command
+      * You can use ps command to find out which process is currently assigned to which CPU core. Lookout for the PSR field in ps command output.
+        * `$ ps -o pid,psr,comm -p 24868`
+    * Command 2: Using top command
+      * In the ‘top’ output screen, hit ‘f‘ to add “Last used cpu (SMP)” and hit ‘j‘ (lookout for the asterisk in the Last used cpu (SMP) row). Once done, you’ll see CPU core ID that runs each process in column ‘P’.
+    * Command 3: Using htop
+      * Launch htop command and hit F2 to enter Setup. Under Setup column, select ‘Columns’ and select “PROCESSOR’ under “Available Columns”. Once done, hit F5 to add the column and F10 to save.
+    * Command 4: Using taskset command
+      * You can use taskset command to retrieve CPU affinity of a running process.
+        * `$ taskset -c -p 24868`
 * How to stop jupyter notebook ?
 ```sh
 $ ps ax | grep notebook
