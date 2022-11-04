@@ -365,6 +365,7 @@ $ echo $PATH
 
 ## VIM
 
+* [Vim Cheat Sheet](https://vim.rtorr.com/)
 * [8个技巧让Vim菜鸟变专家](https://mp.weixin.qq.com/s/KrBwSk_UgyZLivcXAMS2xQ)
 * [10款好用的Vim插件，你知道几个？](https://mp.weixin.qq.com/s/S4afPpMrBtYV6ml8Qb4NXw)
   * https://opensource.com/article/19/11/vim-plugins
