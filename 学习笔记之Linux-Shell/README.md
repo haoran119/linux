@@ -286,6 +286,10 @@ $ echo $PATH
   * rm -rf 删除非空文件夹
   * [shell script to remove a file if it already exist - Stack Overflow](https://stackoverflow.com/questions/31318068/shell-script-to-remove-a-file-if-it-already-exist)
 * rmdir 删除目录
+* [rsync - a fast, versatile, remote (and local) file-copying tool](https://man7.org/linux/man-pages/man1/rsync.1.html)
+  * `rsync --progress -z ~/local_path/test_file id@*.*.*.*:~/remote_path/`
+  * [4 Ways to Transfer Files and Directories on Linux – devconnected](https://devconnected.com/4-ways-to-transfer-files-and-directories-on-linux/)
+  * [如何在 Linux 中使用 rsync 传输文件](https://mp.weixin.qq.com/s/br7U-hXqNAPJUYYj23CJ-g)
 * sudo
   * https://www.howtogeek.com/447906/how-to-control-sudo-access-on-linux/#:~:text=%20How%20to%20Control%20sudo,file.%20It%20is...%20More
   * The sudo command lets you run commands on Linux as though you were someone else, such as root. sudo also lets you control who can access root's capabilities, with granularity. Give users full access or let them use a small subset of commands.
