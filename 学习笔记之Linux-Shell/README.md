@@ -172,8 +172,8 @@ Tue May 24 09:29:43 CST 2022
   diff -r dir_a dir_b -x .git* -y -W 200 --suppress-common-lines
   diff -r dir_a dir_b -x .git* -q
   ```
-* echo 显示指定文本
-  * echo $abc 在变量赋值之后，只需在变量前面加一个$去引用.
+* [echo 显示指定文本](https://man7.org/linux/man-pages/man1/echo.1.html)
+  * `echo $abc` 在变量赋值之后，只需在变量前面加一个$去引用.
 * [eval](https://www.runoob.com/linux/linux-comm-eval.html)
   * Linux eval命令用于重新运算求出参数的内容。
   * eval可读取一连串的参数，然后再依参数本身的特性来执行。
