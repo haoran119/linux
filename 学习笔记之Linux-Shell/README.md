@@ -379,15 +379,12 @@ $ echo $PATH
 * [学习笔记之Shell脚本的输出重定向 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/4955877.html)
 * [学习笔记之Linux Shell脚本教程：30分钟玩转Shell脚本编程 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5304025.html)
 * [编写可靠Linux shell脚本的八个建议](https://mp.weixin.qq.com/s/NNYuIfzEoitXKnHteJwj_A)
-* [Linux Shell的18条常用命令整理 - Linux学习](https://mp.weixin.qq.com/s/mNSXpKzMpMcP3V6Rf6Nzcg)
 * [10 个实战与面试【常用 Shell 脚本】编写](https://mp.weixin.qq.com/s/xuC_pH1X_GmyK0vVWrBzWQ)
   * https://blog.51cto.com/lizhenliang/1929044
 * [Linux Shell 基础 -- 总结几种括号、引号的用法](https://mp.weixin.qq.com/s/nM3P7iVIygrwEEhkjDdH4Q)
   * https://www.cnblogs.com/tongye/p/10646211.html
-* [一份Linux shell“圣经”收好](https://mp.weixin.qq.com/s/juul4YWoWCBzNpQWMdP4wg)
-  * https://github.com/dylanaraps/pure-bash-bible
-* [Linux Shell 时间运算以及时间差计算方法！](https://mp.weixin.qq.com/s/3SrV3wTrcu9O2s1r_MwRHg)
-  * https://www.cnblogs.com/chengmo/archive/2010/07/13/1776473.html
+* [一份Linux shell“圣经”收好](https://github.com/dylanaraps/pure-bash-bible)
+* [Linux Shell 时间运算以及时间差计算方法！](https://www.cnblogs.com/chengmo/archive/2010/07/13/1776473.html)
 
 ## FAQ
 
