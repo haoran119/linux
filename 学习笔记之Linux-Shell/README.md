@@ -136,14 +136,24 @@
     chmod 777 test.sh
     ```
 * clear - clear the terminal screen
-* cp copy
-  * https://www.runoob.com/linux/linux-comm-cp.html
-  ```sh
-  cp source.py dest.py
-  cp -r test newtest
+* [cp copy](https://www.runoob.com/linux/linux-comm-cp.html)
+```sh
+cp source.py dest.py
+cp -r test newtest
 
-  # result : newtest/test
-  ```
+# result : newtest/test
+```
+* [cron](https://man7.org/linux/man-pages/man8/cron.8.html)
+  * crond - daemon to execute scheduled commands
+* [crontab - maintains crontab files for individual users](https://man7.org/linux/man-pages/man1/crontab.1.html)
+  * [A Beginners Guide To Cron Jobs - OSTechNix](https://ostechnix.com/a-beginners-guide-to-cron-jobs/)
+  * [Crontab manpage - crontab.5 - Crontab.guru](https://crontab.guru/crontab.5.html)
+  * [Crontab.guru - The cron schedule expression editor](https://crontab.guru/#50_14_*_*_1-5)
+```sh
+crontab -l
+# 50 14 * * 1-5 ~/test.sh >> test.log
+crontab -e
+```
 * [date 命令可以用来显示或设定系统的日期与时间](https://www.runoob.com/linux/linux-comm-date.html)
 ```sh
 # date
