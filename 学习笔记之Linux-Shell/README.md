@@ -1,4 +1,4 @@
-# 学习笔记之Linux / Shell
+# 学习笔记之Linux
 
 * [shell（计算机壳层）_百度百科](http://baike.baidu.com/subview/849/15831672.htm)
 * [Shell (computing) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Shell_(computing))
@@ -386,6 +386,32 @@ $ echo $PATH
   * https://www.cnblogs.com/tongye/p/10646211.html
 * [一份Linux shell“圣经”收好](https://github.com/dylanaraps/pure-bash-bible)
 * [Linux Shell 时间运算以及时间差计算方法！](https://www.cnblogs.com/chengmo/archive/2010/07/13/1776473.html)
+* How to iterate date range to execute cmd ?
+  * [Loop through a date range in Shell Script | TechieRoop](https://techieroop.com/loop-through-a-date-range-in-shell-script/)
+  * [shell - How to concatenate string variables in Bash - Stack Overflow](https://stackoverflow.com/questions/4181703/how-to-concatenate-string-variables-in-bash)
+  * [How to catch and handle errors in bash](https://www.xmodulo.com/catch-handle-errors-bash.html)
+```sh
+#!/usr/bin/bash
+
+# input args
+# start=$1
+# end=$2
+
+# hardcode values
+start='20221101'
+end='20221109'
+
+start=$(date -d $start +%Y%m%d)
+end=$(date -d $end +%Y%m%d)
+
+while [[ $start -le $end ]]
+do
+    cmd="rm -f ./output_$start.log && ./test_pgm >> ./output_$start.log"
+    echo $cmd
+    eval $cmd || echo
+    start=$(date -d"$start + 1 day" +"%Y%m%d")
+done
+```
 
 ## FAQ
 
