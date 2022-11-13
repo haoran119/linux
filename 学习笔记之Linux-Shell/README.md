@@ -161,17 +161,18 @@ Tue May 24 09:29:43 CST 2022
   * Linux du （英文全拼：disk usage）命令用于显示目录或文件的大小。
   * du 会显示指定的目录或文件所占用的磁盘空间。
   * `du [-abcDhHklmsSx][-L <符号连接>][-X <文件>][--block-size][--exclude=<目录或文件>][--max-depth=<目录层数>][--help][--version][目录或文件]`
-* [diff](https://www.runoob.com/linux/linux-comm-diff.html) 比较文件的差异
+* [diff 比较文件的差异](https://www.runoob.com/linux/linux-comm-diff.html)
   * diff [-abBcdefHilnNpPqrstTuvwy][-<行数>][-C <行数>][-D <巨集名称>][-I <字符或字符串>][-S <文件>][-W <宽度>][-x <文件或目录>][-X <文件>][--help][--left-column][--suppress-common-line][文件或目录1][文件或目录2]
-  ```sh
-  diff a.py b.py -y -W 200
-  diff -r dir_a dir_b
-  diff -r dir_a dir_b -x .git*
-  diff -r dir_a dir_b -x .git* -c
-  diff -r dir_a dir_b -x .git* -u
-  diff -r dir_a dir_b -x .git* -y -W 200 --suppress-common-lines
-  diff -r dir_a dir_b -x .git* -q
-  ```
+  * [diff command in Linux with examples - GeeksforGeeks](https://www.geeksforgeeks.org/diff-command-linux-examples/?ref=leftbar-rightbar)
+```sh
+diff a.py b.py -y -W 200
+diff -r dir_a dir_b
+diff -r dir_a dir_b -x .git*
+diff -r dir_a dir_b -x .git* -c
+diff -r dir_a dir_b -x .git* -u
+diff -r dir_a dir_b -x .git* -y -W 200 --suppress-common-lines
+diff -r dir_a dir_b -x .git* -q
+```
 * [echo 显示指定文本](https://man7.org/linux/man-pages/man1/echo.1.html)
   * `echo $abc` 在变量赋值之后，只需在变量前面加一个$去引用.
 * [eval](https://www.runoob.com/linux/linux-comm-eval.html)
