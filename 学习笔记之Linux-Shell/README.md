@@ -16,6 +16,7 @@
     * `cat /etc/centos-release`
 * [面试总结之Linux/Shell - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5559113.html)
 * [学习笔记之Linux开发(C语言) - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5122821.html)
+* [Linux 教程 | 菜鸟教程](https://www.runoob.com/linux/linux-tutorial.html)
 
 ## RESROUCES
 
@@ -387,6 +388,7 @@ $ echo $PATH
 
 ## SHELL
 
+* [Shell 教程 | 菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
 * [学习笔记之Shell脚本的输出重定向 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/4955877.html)
 * [学习笔记之Linux Shell脚本教程：30分钟玩转Shell脚本编程 - 浩然119 - 博客园](https://www.cnblogs.com/pegasus923/p/5304025.html)
 * [编写可靠Linux shell脚本的八个建议](https://mp.weixin.qq.com/s/NNYuIfzEoitXKnHteJwj_A)
