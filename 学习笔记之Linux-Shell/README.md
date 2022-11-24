@@ -116,6 +116,22 @@
 
 * [Linux manual pages: alphabetic list of all pages](https://man7.org/linux/man-pages/dir_all_alphabetic.html)
 * [Linux 命令大全 | 菜鸟教程](http://www.runoob.com/linux/linux-command-manual.html)
+* [linux yum 命令 | 菜鸟教程](https://www.runoob.com/linux/linux-yum.html)
+  * yum（ Yellow dog Updater, Modified）是一个在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端软件包管理器。
+  * 基于 RPM 包管理，能够从指定的服务器自动下载 RPM 包并且安装，可以自动处理依赖性关系，并且一次安装所有依赖的软件包，无须繁琐地一次次下载、安装。
+  * yum 提供了查找、安装、删除某一个、一组甚至全部软件包的命令，而且命令简洁而又好记。
+  * `yum [options] [command] [package ...]`
+    * options：可选，选项包括-h（帮助），-y（当安装过程提示选择全部为 "yes"），-q（不显示安装的过程）等等。
+    * command：要进行的操作。
+    * package：安装的包名。
+* [Linux apt 命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-apt.html)
+  * apt（Advanced Packaging Tool）是一个在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器。
+  * apt 命令提供了查找、安装、升级、删除某一个、一组甚至全部软件包的命令，而且命令简洁而又好记。
+  * apt 命令执行需要超级管理员权限(root)。
+  * `apt [options] [command] [package ...]`
+    * options：可选，选项包括 -h（帮助），-y（当安装过程提示选择全部为"yes"），-q（不显示安装的过程）等等。
+    * command：要进行的操作。
+    * package：安装的包名。
 * bash - enter bash command line from virtual environment (e.g. conda)
 * bg - Runs jobs in the background
   * https://www.cyberciti.biz/faq/unix-linux-bg-command-examples-usage-syntax/
@@ -302,6 +318,12 @@ $ echo $PATH
   * `rsync --progress -z ~/local_path/test_file id@*.*.*.*:~/remote_path/`
   * [4 Ways to Transfer Files and Directories on Linux – devconnected](https://devconnected.com/4-ways-to-transfer-files-and-directories-on-linux/)
   * [如何在 Linux 中使用 rsync 传输文件](https://mp.weixin.qq.com/s/br7U-hXqNAPJUYYj23CJ-g)
+* [sleep 将目前动作延迟一段时间](https://www.runoob.com/linux/linux-comm-sleep.html)
+  * `sleep [--help] [--version] number[smhd]`
+    * --help : 显示辅助讯息
+    * --version : 显示版本编号
+    * number : 时间长度，后面可接 s、m、h 或 d
+      * 其中 s 为秒，m 为 分钟，h 为小时，d 为日数
 * sudo
   * https://www.howtogeek.com/447906/how-to-control-sudo-access-on-linux/#:~:text=%20How%20to%20Control%20sudo,file.%20It%20is...%20More
   * The sudo command lets you run commands on Linux as though you were someone else, such as root. sudo also lets you control who can access root's capabilities, with granularity. Give users full access or let them use a small subset of commands.
