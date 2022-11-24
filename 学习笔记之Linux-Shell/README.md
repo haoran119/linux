@@ -381,6 +381,7 @@ $ echo $PATH
 
 ## VIM
 
+* [Linux vi/vim | 菜鸟教程](https://www.runoob.com/linux/linux-vim.html)
 * [Vim Cheat Sheet](https://vim.rtorr.com/)
 * [8个技巧让Vim菜鸟变专家](https://mp.weixin.qq.com/s/KrBwSk_UgyZLivcXAMS2xQ)
 * [10款好用的Vim插件，你知道几个？](https://mp.weixin.qq.com/s/S4afPpMrBtYV6ml8Qb4NXw)
