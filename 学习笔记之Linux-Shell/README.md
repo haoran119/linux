@@ -398,7 +398,7 @@ $ echo $PATH
 
 ## BASH
 
-* [Linux Bash编程详细语法总结](https://mp.weixin.qq.com/s/L-W4w14oVNkfTvpoBZSPlg)
+* [dylanaraps/pure-bash-bible: 📖 A collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible#loop-over-a-range-of-numbers)
 * [『一网打尽』 Bash 常用命令](https://mp.weixin.qq.com/s/uWDli1O5u73GCx0MpsGcWg)
 
 ## VIM
