@@ -86,6 +86,8 @@
     * Linux observability sar | linux性能观测工具
       * ![image](https://user-images.githubusercontent.com/34557994/194444597-071b53ec-ed55-4f49-9529-15d25a6a2b52.png)
       * sar（System Activity Reporter系统活动情况报告）是目前LINUX上最为全面的系统性能分析工具之一，可以从多方面对系统的活动进行报告，包括：文件的读写情况、系统调用的使用情况、磁盘I/O、CPU效率、内存使用状况、进程活动及IPC 有关的活动等方面。
+* [虚拟内存 & I/O & 零拷贝](https://mp.weixin.qq.com/s/DMWfSxrbu4kgCh4JCQ4XIQ)
+* [CPU 是如何与内存交互的](https://mp.weixin.qq.com/s/SaaHKPnNUSvDkmwKtip3HA)
 
 ## LINUX COMMANDS
 
