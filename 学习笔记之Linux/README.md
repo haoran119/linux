@@ -155,6 +155,28 @@
   * https://github.com/aureliojargas/sokoban.sed
 * [常用的 Linux 命令和技巧！](https://mp.weixin.qq.com/s/XtYKDgyPqG0lKaJ1ysaXqw)
   * https://dev.to/mateuszjarzyna/linux-s-commands-and-tricks-i-m-using-in-my-daily-job-as-a-developer-4cle
+* [10 Commands to Collect System and Hardware Info in Linux](https://www.tecmint.com/commands-to-collect-system-and-hardware-information-in-linux/)
+  * 1. How to View Linux System Information
+    * To know only the system name, you can use the `uname` command without any switch that will print system information or the `uname -s` command will print the kernel name of your system.
+  * 2. How to View Linux System Hardware Information
+    * Here you can use the `lshw` tool to gather vast information about your hardware components such as cpu, disks, memory, usb controllers, etc.
+  * 3. How to View Linux CPU Information
+    * To view information about your CPU, use the `lscpu` command as it shows information about your CPU architecture such as a number of CPUs, cores, CPU family model, CPU caches, threads, etc from sysfs and /proc/cpuinfo.
+  * 4. How to Collect Linux Block Device Information
+    * Block devices are storage devices such as hard disks, flash drives, etc. `lsblk` command is used to report information about block devices as follows.
+  * 5. How to Print USB Controllers Information
+    * The `lsusb` command is used to report information about USB controllers and all the devices that are connected to them.
+  * 6. How to Print PCI Devices Information
+    * PCI devices may include usb ports, graphics cards, network adapters, etc. The `lspci` tool is used to generate information concerning all PCI controllers on your system plus the devices that are connected to them.
+  * 7. How to Print SCSI Devices Information
+    * To view all your scsi/sata devices, use the `lsscsi` command as follows. If you do not have the lsscsi tool installed, run the following command to install it.
+  * 8. How to Print Information about SATA Devices
+    * You can find some information about sata devices on your system as follows using the `hdparm` utility. In the example below, I used the block device /dev/sda1 which is the hard disk on my system.
+  * 9. How to Check Linux File System Information
+    * To gather information about file system partitions, you can use the `fdisk` command. Although the main functionality of the fdisk command is to modify file system partitions, it can also be used to view information about the different partitions on your file system.
+  * 10. How to Check Linux Hardware Components Info
+    * You can also use the `dmidecode` utility to extract hardware information by reading data from the DMI tables.
+  * There are many other ways you can use to obtain information about your system hardware components. Most of these commands use files in the /proc directory to extract system information.
 
 ### COMMANDS
 
