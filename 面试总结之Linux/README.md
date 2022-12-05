@@ -1,5 +1,7 @@
 # 面试总结之Linux / Shell
 
+* [linux/学习笔记之Linux at main · haoran119/linux](https://github.com/haoran119/linux/tree/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8BLinux)
+
 ## Linux
 
 * Linux .cshrc文件作用
