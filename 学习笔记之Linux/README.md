@@ -370,7 +370,14 @@ $ echo $PATH
   * [Linux and Unix mv command tutorial with examples | George Ornbo](https://shapeshed.com/unix-mv/#how-to-move-a-directory)
 * passwd 更改密码
   * https://www.runoob.com/linux/linux-comm-passwd.html
-* ps 查看当前进程状况
+* [ps 查看当前进程状况](https://man7.org/linux/man-pages/man1/ps.1.html)
+* How to find and kill process ?
+  ```sh
+  $ ps ax | grep python
+  11111 pts/9 Tl 0:08 python ...
+  $ kill -9 11111
+  ```
+  * [Kill Process in Linux or Terminate a Process in UNIX / Linux Systems - nixCraft](https://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/)
 * pushd and popd
   * [pushd and popd - Wikipedia](https://en.wikipedia.org/wiki/Pushd_and_popd)
     * In computing, pushd and popd are commands used to work with the command line directory stack.
@@ -542,13 +549,6 @@ done
   $ alias test=~/bin/test
   $ test
   ```
-* How to find and kill process ?
-  ```sh
-  $ ps ax | grep python
-  11111 pts/9 Tl 0:08 python ...
-  $ kill -9 11111
-  ```
-  * [Kill Process in Linux or Terminate a Process in UNIX / Linux Systems - nixCraft](https://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/)
 * How to find out a CPU Core that is running a particular Process in Linux ?
   * [4 Ways to Find Out a CPU Core that is running a particular Process in Linux - Techglimpse](https://techglimpse.com/find-cpu-processor-running-process-linux/#:~:text=You%20can%20use%20ps%20command,field%20in%20ps%20command%20output.&text=The%20above%20command%20output%20indicates,assigned%20to%20CPU%20core%202.)
     * Command 1 : Using ps command
