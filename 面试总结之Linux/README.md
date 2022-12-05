@@ -10,7 +10,7 @@
   * [Kill Process in Linux or Terminate a Process in UNIX / Linux Systems - nixCraft](https://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/)
   * 查进程 ps命令查找与进程相关的PID号： ps a 显示现行终端机下的所有程序，包括其他用户的程序。 ...
   ```sh
-  ps aux | grep python
+  ps ax | grep python
   ```
   * 杀进程 使用kill命令结束进程：kill xxx. 常用：kill －9 324. ...
   ```sh
