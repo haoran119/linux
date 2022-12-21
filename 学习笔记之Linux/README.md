@@ -199,13 +199,13 @@
     * command：要进行的操作。
     * package：安装的包名。
 * bash - enter bash command line from virtual environment (e.g. conda)
-* bg - Runs jobs in the background
-  * https://www.cyberciti.biz/faq/unix-linux-bg-command-examples-usage-syntax/
+* [bg - Runs jobs in the background](https://www.cyberciti.biz/faq/unix-linux-bg-command-examples-usage-syntax/)
 * cat 文件名 输出文件内容到基本输出（屏幕 or 加>fileName 到另一个文件）
-  ```sh
-  cat filename.sh
-  ```
-  * [linux - How does "cat << EOF" work in bash? - Stack Overflow](https://stackoverflow.com/questions/2500436/how-does-cat-eof-work-in-bash/2500451)
+    ```sh
+    cat filename.sh
+    ```
+    * [linux - How does "cat << EOF" work in bash? - Stack Overflow](https://stackoverflow.com/questions/2500436/how-does-cat-eof-work-in-bash/2500451)
+    * [Cat command in Linux with examples - GeeksforGeeks](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/)
 * cb 格式化源代码
 * cd 进入目录
 * chmod //change mode，改变文件的权限
